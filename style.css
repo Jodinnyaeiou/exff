@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 730px;
+    background-color: #86c7e6;
+    color: white;
+    flex-direction: column; 
+}
+.circular {
+    border-radius: 50%;
+    width: 300px;  
+    height: 300px;
+    margin-bottom: 20px; 
+}
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    margin-top: 20px;
+}
+.proyectos img {
+    width: 500px; 
+    height: 300px;
+    border-radius: 10%;
+}
+/* Estilos para formulario de contacto */
+#contact {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+.yyy{
+    border-radius: 5%;
+    width: 550px; 
+    height: 260px;
+    margin-bottom: 20px;
+}
+#conoce{
+    width: 80%;        
+    margin: 0 auto;    
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid;
+    text-align: center;
+    background-color: #160a57;
+    color: white;
+    
+    text-align: center;
+   
+}
+i {
+font-size: 50px;  
+background-color: #86c7e6;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+}
+#skills {
+width: 80%;        
+margin: 0 auto;    
+background-color: #f2f2f2;
+padding: 20px;
+border: 1px solid;
+
+}
+.partes{
+
+padding: 20px;
+margin: 10px;
+border: 1px solid #ccc;
+flex: 1; 
+}
+.solo{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+.final{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+.contacto{
+color: white;
+background-color:#160a57 ;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen final</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <style>
+#carouselExample {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 600px; 
+}
+.carousel-inner {
+height: 500px; 
+}
+.carousel-item {
+display: flex;
+justify-content: center; 
+align-items: center; 
+flex-direction: column;
+height: 100%; 
+display: none;
+}
+.carousel-item.active {
+display: flex; 
+}
+.footo{
+width: 200px; 
+height: 200px; 
+object-fit: cover; 
+border-radius: 50%; 
+margin-bottom: 15px; 
+}
+.carousel-caption-bottom {
+position: relative;
+font-size: 1.2rem;
+color: black;
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px; 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff; 
+    border-radius: 50%; 
+}
+        </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testi">Testimonios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="hero-section">
+        <img class="circular" src="img/perfill.jpg" alt="Mi Foto">
+        <div>
+            <h1>Hola, soy Jodinny Choquecahua</h1>
+            <p>Estudiante de Diseño Web | Programacion | Amante de los videojuegos</p>
+            <img class="yyy" src="img/5.jpg" alt="">
+        </div>
+    </section>
+    <br>
+    <div id="conoce" >
+        <h2 >Conoce a Jodinny Choquecahua</h2>
+        <br>
+        <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas deleniti, soluta deserunt consequuntur fuga exercitationem error ullam repellendus autem dolore aut totam porro aliquid! Aliquam sequi iusto autem pariatur in odio. Repellat iure expedita reprehenderit optio rem aliquid? Officia voluptate est provident rerum nulla deleniti? Eius odio ullam nesciunt commodi iste explicabo error ad delectus quis, eum, voluptatem aut pariatur aliquam officia! Ipsum minus pariatur explicabo numquam molestias debitis earum, laborum voluptatibus non maiores quasi sequi, sint dolorem iure quo repellendus consectetur qui expedita? Iusto mollitia illum magni vel itaque natus non deleniti officiis minus dolor, ipsum repudiandae doloribus dolorem corrupti ut impedit, eveniet quisquam voluptatem quibusdam temporibus sapiente nobis? Nulla consequuntur perferendis quos tenetur voluptatum. Libero, at molestias similique praesentium rerum, laboriosam ab esse sit, obcaecati itaque nam dolore illum. Modi voluptatibus quod dolorem mollitia in reiciendis quam repellendus laboriosam, eveniet, quas magnam odio illum voluptas fugit necessitatibus ex!</p>
+    </div>
+    <br>
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="partes">            
+                        <i class="fas fa-laptop"></i> <br><br>
+                    <h4>Desarrollo Web</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum tempora perferendis molestiae neque sed dolore repellat! Unde a ducimus, reprehenderit minus, quod voluptatibus et, laudantium veniam suscipit reiciendis hic ipsam!</p>
+                </div>
+                <div class="partes">
+                    <i class="fas fa-microchip"></i> <br><br>
+                    <h4>Estudiante</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea modi id consequuntur, qui saepe autem dolor, dicta illo itaque enim illum, labore quae quaerat minima consectetur. Deserunt cupiditate sit eaque?</p>
+                </div>
+                <div class="partes">
+                    <i class="fas fa-leaf"></i> <br><br>
+                    <h4>vida</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse harum suscipit nihil nesciunt hic, perferendis quidem eos commodi cum vitae. Iure labore voluptates totam alias ea laboriosam quia odio?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <h1 id="projects"  class="solo"> Mis Proyectos Recientes</h1>
+    <div class="proyectos">
+        <img src="img/p1.jpg" alt="Image 1">
+        <img src="img/p2.jpg" alt="Image 1">
+        <img src="img/p3.jpg" alt="Image 1">
+        <img src="img/p4.jpg" alt="Image 1">
+        <img src="img/p5.jpg" alt="Image 1">
+        <img src="img/p6.jpg" alt="Image 1">
+    </div>
+    <br>
+    <h1 class="solo">Articulos</h1>
+    <div class="d-flex justify-content-center align-items-center" style="height: 350px;">
+        <div class="border p-4 rounded shadow-lg" style="width: 80%; max-width: 700px;">
+            <div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, accusamus!</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, architecto.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ut.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, impedit.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="testi" id="carouselExample" class="container py-5" >
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <h1 class="solo">Testimonios</h1>
+                <div class="carousel-item active">
+                    <div class="image-container">
+                        <img class="footo" src="img/3.jpg" alt="testimonio 1">
+                    </div>
+                    <p class="carousel-caption-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet quo nisi beatae, explicabo, consequuntur quae dolor ex harum at obcaecati dicta vitae asperiores eligendi ad voluptas deserunt, omnis fuga?</p>
+                    <p>Jodinny Choquecahua</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img class="footo" src="img/7.jpg" alt="testimonio 2">
+                    </div>
+                    <p class="carousel-caption-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsa velit. Maxime, ea vitae! Explicabo adipisci fuga corporis iste magnam vel al te i architecto culpa sunt sapiente! Aliquid maxime quibusdam ab sed.</p>
+                    <p>Melany Ore</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="image-container">
+                        <img class="footo" src="img/6.jpg" alt="testimonio 3">
+                    </div>
+                    <p class="carousel-caption-bottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, quis corporis placeat aperiam voluptatibus, sit earum delectus explicabo, provident architecto aliquid? Tempora eius accusantium sit. Perferendis numquam hic quidem accusamus!</p>
+                    <p>Estela Crisologo</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+            </button>
+        </div>
+    </section>
+    
+    <div class="contacto">
+        <br><br>
+        <h5 class="final">Cada dia se aprende nuevas cosas y dia a dia soy mas inteligente <br> ser el mejor es un cargo muy pesado.</h5>
+        <br>
+        <div class="text-center">
+            <a href="https://www.facebook.com" target="_blank" class="btn btn-outline-primary m-2">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="btn btn-outline-info m-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="btn btn-outline-danger m-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="btn btn-outline-primary m-2">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div> <br><br>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
